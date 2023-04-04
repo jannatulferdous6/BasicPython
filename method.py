@@ -5,6 +5,7 @@ class student:
     def set_value(self, roll, gpa):
         self.roll = roll
         self.gpa = gpa
+        
 
     def display(self):
         print(f"Roll : {self.roll}, GPA :{self.gpa}")
